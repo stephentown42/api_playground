@@ -1,0 +1,16 @@
+[project]
+name = "api-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [{name = "ArjanCodes"}]
+dependencies = [
+    "httpx>=0.28.1",
+    "hypothesis>=6.135.26",
+    "pytest>=8.4.1",
+    "python-dotenv>=1.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "./src/"
